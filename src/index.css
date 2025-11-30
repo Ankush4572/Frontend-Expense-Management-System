@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  height: 83vh;
+}
+
+.back-page-login{
+  background-color:rgb(161, 80, 88);
+  height: 100vh;
+  font-style: italic;
+  color: black;
+}
+
+.back-page-register{
+  background-color:rgb(151, 77, 101);
+  height: 100vh;
+  font-style: italic;
+  color: black;
+}
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  /* background-color:rgb(151, 81, 81); */
+}
+
+/* transection page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+
+}
+
+/* antd icons */
+.switch-icon{
+  border: 1px solid rgba(0,0,0,0.677) ;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: gray;
+}
